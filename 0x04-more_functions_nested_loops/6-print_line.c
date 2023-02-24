@@ -1,10 +1,14 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
- * print_line - draws a straight line in the terminal
- * @n: number of times the character _should be printed
+/**
+ * print_line - prints a line specified length using underscore character
+ *
+ * @n: length of the line to be printed
+ *
+ * Return: void
  */
+
 void print_line(int n)
 {
 	if (n <= 0)
@@ -13,12 +17,13 @@ void print_line(int n)
 	} else
 	{
 		int i;
-		
+
 		for (i = 1; i <= n; i++)
 		{
-			putchar('_');
+			putchar(' ');
 		}
 		putchar('\n');
 	}
-
 }
+
+

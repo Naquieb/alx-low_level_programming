@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
- * print_square - prints a square, followed by a new line
- * @size: size of the square
+/**
+ * print_square - prints a square of a specified size using the '#' character
+ *
+ * @size: the size of the square to print
  */
+
 void print_square(int size)
 {
 	if (size <= 0)

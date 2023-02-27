@@ -2,7 +2,7 @@
 
 /**
  * _atoi - convert a string to an integer.
- * @s: The pointer to convert 
+ * @s: The pointer to convert
  * Return: A integer
 */
 
@@ -16,7 +16,7 @@ int _atoi(char *s)
 
 	while (s[c])
 	{
-	if (s[c] ==45)
+	if (s[c] == 45)
 	{
 	min *= -1;
 	}
